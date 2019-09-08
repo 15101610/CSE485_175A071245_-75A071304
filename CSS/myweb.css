@@ -169,6 +169,8 @@ body{
     font-size: 20px;
 }
 .more-sth a:hover{
+	display: inline-block;
+	line-height: 40px;
 	background-color:#CD2122;
 	color: #fff; 
 }
@@ -224,4 +226,69 @@ ul{
 #ndmain{
 	height: 589px;
 	background-color: #F9FADC;
+}
+.reason-to h2{
+	color:#0067ac; 
+	text-align: center;
+	padding-top: 20px;
+}
+.aos-item {
+	display: inline-block;
+}
+
+.aos-item__inner {
+	display: flex;
+	flex-direction: column;	
+	width: 100%;
+	height: 100%;
+}
+.aos-item__inner a img{
+	border: 1.1px solid red;
+	border-radius: 3px
+}
+.aos-item__inner a{
+	color: #000;
+	text-align: center;
+	width: 302px;
+}
+.aos-item__inner a:hover{
+	color: #CD2122;
+	text-decoration: none;
+}
+.reason-to-1 div{
+	display: flex;
+	justify-content: space-evenly
+}
+.reason-to-2 div{
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-evenly
+}
+.after-graduated{
+	padding-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.description span{
+	display: inline-block;
+	width: 500px
+}
+.right-col h2{
+	color: #0067ac
+}
+.right-col ul{
+	padding-left: 0px
+}
+.graduated-block{
+	display: flex;
+	padding-bottom: 40px;
+}
+.description{
+	padding-left: 15px;
+}
+.fa-thumbs-up{
+	font-size: 30px;
+	color: #CD2122;
 }
