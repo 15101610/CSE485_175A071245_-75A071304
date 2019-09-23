@@ -468,3 +468,46 @@ ul li ul.dropdown li{
 .menu-name:hover{
 	color: #fff
 }
+#sildedown-menu{
+	justify-content: space-between;
+	background-color: #CD2122;
+}
+#sildedown-menu a{
+	color: #fff;
+}
+.search{
+	background: #E8E8E4;
+	position: absolute;
+	top: 168px;
+	right: 189px;
+	line-height: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-top:4px solid #D80B15;
+	z-index: 3;
+	display: none;
+}
+.search:before{
+	content: "";
+  position: absolute;
+  top: -32px;
+  right: 13px;
+  border-bottom: 14px solid #D80B15;
+}
+.search  input[type="text"]{
+	width: 200px;
+	border: 1px solid #D80B15;
+	outline: none;
+  }
+.search-box input[type="button"]{
+	width: 80px;
+	padding: 5px 0;
+	background: #D80B15;
+	color: #fff;
+	margin-left: -6px;
+	border: 1px solid #D80B15;
+	outline: none;
+	cursor: pointer;
+  }  
+  .fa-search:hover{
+	  cursor: pointer;
+  }
